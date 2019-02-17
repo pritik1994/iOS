@@ -16,7 +16,7 @@ class AViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        labelFirst.text = "priti"
+        labelFirst.text = "final"
 
     }
     
