@@ -180,14 +180,16 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="71.5" id="aHu-qa-S0N"/>
+                                    <constraint firstAttribute="height" constant="71.5" id="w29-1g-Ffd"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="nq0-hB-wia" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="4iR-nT-lHc" secondAttribute="trailing" constant="10" id="NOr-3j-eeQ"/>
                             <constraint firstItem="4iR-nT-lHc" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="nq0-hB-wia" secondAttribute="leading" constant="10" id="QR3-aq-5aE"/>
                             <constraint firstItem="nq0-hB-wia" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="4iR-nT-lHc" secondAttribute="bottom" constant="10" id="TSj-rF-fZb"/>
-                            <constraint firstItem="4iR-nT-lHc" firstAttribute="top" relation="greaterThanOrEqual" secondItem="nq0-hB-wia" secondAttribute="top" constant="10" id="upO-aV-aij"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="nq0-hB-wia"/>
                     </view>
