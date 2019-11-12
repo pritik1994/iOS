@@ -158,7 +158,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="4iR-nT-lHc">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="4iR-nT-lHc">
                                 <rect key="frame" x="166" y="199" width="71.5" height="71.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rSC-ps-w0M">
@@ -189,7 +189,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="4iR-nT-lHc" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="nq0-hB-wia" secondAttribute="leading" constant="10" id="QR3-aq-5aE"/>
-                            <constraint firstItem="nq0-hB-wia" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="4iR-nT-lHc" secondAttribute="bottom" constant="10" id="TSj-rF-fZb"/>
+                            <constraint firstItem="4iR-nT-lHc" firstAttribute="top" secondItem="nq0-hB-wia" secondAttribute="top" constant="179" id="V2B-aS-t3K"/>
+                            <constraint firstItem="4iR-nT-lHc" firstAttribute="leading" secondItem="nq0-hB-wia" secondAttribute="leading" constant="166" id="jhz-Kx-p86"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="nq0-hB-wia"/>
                     </view>
