@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         lableVerifiedData.text = "This indicates that the authenticity of the merchant is verified"
         labelUnVerfied.text = "UNVERIFIED MERCHANT"
         labelUnVerifiedData.text = "This indicates that the authenticity of the merchant is unverified."
-        labelUnVerifiedData.text = "Tuiou"
+        labelUnVerifiedData.text = "priti"
         labelUnVerifiedData.text = "Text."
         labelUnVerifiedData.text = "new."
 
